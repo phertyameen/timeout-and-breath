@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Libre+Baskerville&family=Manrope:wght@500&family=Noto+Sans&family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Libre+Baskerville&family=Manrope:wght@500&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lato:wght@300&family=Libre+Baskerville&family=Manrope:wght@500&family=Noto+Sans&family=Poppins:wght@400;500&family=Roboto:wght@400;500&display=swap');
+:root{
+    --primary: #F46500;
+    --secondary: #264301;
+    --black: #040406;
+    --Manrope: 'Manrope', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+    --bgColor: #D6F582;
+    --yellow: #FFE02A;
+}
+* {
+    font-family: var(--Manrope);
+    color: #081411;
+    font-weight: 500;
+}
+.nav_logo{
+    background-color: #D6F582;
+}
+.nav_btns{
+    display: flex;
+    width:20rem;
+}
+.nav_logo img{
+    width: 8%;
+    margin-left: 1.5rem;
+}
+.sign_up_btn{
+    color: #ffffff;
+    padding: 0.75rem 3rem;
+    background-color: var(--primary);
+    border: none;
+}
+.btn_log_in{
+    padding: 0.75rem 3rem;
+}
+.bi-alarm {
+    background-image: url('./images/background_icon_image.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.hero_section{
+    background-image: url('https://s3-alpha-sig.figma.com/img/31e8/6d74/e9a137e2a4a51e5a7c42bf86df74afe1?Expires=1691971200&Signature=TlmZvC8okIErOI59tnzqQFQzvR2tfjqhk8BS4rIILsV0A9eKNzmrexiikNDlSuZ4PHyMbLYXhFa0kKI1TUDHiM7dpPkVInAOze6uirZNbnB3gwV9MwGZ7-YgSAYyHfpC3rbUPy3Vt7190E~H5sHw6Tza1LK-pS4Pi9HqM4gK8UmHOkPhDgtiXFhEN9hs2BOCqd-3k~a~2jCzFF-8tKkQ1UVdzJF9p~sv~xRBMj1HhnlwgF4EJAWmcChiruN5d2Qy40taATTe5Ic1wywSVEhsgSXZlchlZta2TlDayjF1CQnxoR5b2qFF2y8pKqFdM0vVGYyYX4l9jWnRoYoefdYVwQ__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.hero_section_text{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    margin: 4rem;
+    gap: 4rem;
+    align-items: center;
+    /* justify-content: start; */
+    text-align: center;
+}
+
+/* beginning of section 2 */
+.need_break_section, .max_break_section{
+    display: flex;
+    gap: 10rem;
+    height: 50vh;
+    margin-block: 8rem;
+}
+#learn_more a{
+    color: var(--primary);
+    text-decoration: none;
+}
+.need_break_section_text p{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-family: var(--roboto);
+}
+.need_break_section img, .max_break_section img{
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* 'How take a break works' section */
+.individual_container{
+    box-sizing: content-box;
+    width: 35%;
+    height: 40vh;
+    background-color: var(--bgColor);
+    box-shadow: 0px 10px 5px 3px rgba(0, 0, 0, 0.14);
+    position: relative;
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 2rem;
+    border-radius: 20px;
+}
+.individual_container img{
+    position: absolute;
+    width: 30%;
+    top: -4.5rem;
+    left: 45%;
+}
+.individual_container h3{
+    text-align: center;
+}
+.how_tab_sec_work h1{
+    margin-block: 5rem;
+    font-weight: 600;
+}
+
+/* become a family sectiom */
+.become_family_section{
+    height: 90vh;
+    margin-bottom: 2rem;
+}
+.become_family_section_text{
+    width: 70%;
+    padding: 4rem 3rem;
+    margin-inline: auto;
+}
+.become_family_form {
+    width: 80%;
+    height: 60vh;
+    background-color: var(--bgColor);
+    border-radius: 2px;
+    padding-block: 5rem;
+    margin-bottom: 2rem;
+}
+.become_family_form form input{
+    display: block;
+    width: 70%;
+    margin-top: 2rem;
+    margin-inline: auto;
+    border: 1px solid var(--black);
+    border-radius: 9px;
+    padding: 0.7rem;
+}
+#input_submit {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+}
+.to_center{
+    align-items: center;
+}
+
+/* Welcome page */
+.hero_welcome_section{
+    background-image: url(./images/wlcm_hero_image.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 70vh;
+}
+.hero_welcome_section_text{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10rem;
+    padding: 5rem;
+}
+
+/* .hero_welcome_section_text p{
+} */
+/* footer section */
+
+.footer_section{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    height: 60vh;
+}
+.individual_footer_containers{
+    /* width: 100%;
+    height: 50%; */
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+.individual_footer_containers img{
+    width: 15%;
+}
+.individual_footer_containers li {
+    list-style: none;
+    color: white;
+}
+.individual_footer_containers a{
+    text-decoration: none;
+    color: white;
+}
+/* side bar section */
+.side_bar{
+    height: 10rem;
+    width: 17rem;
+    padding: 2rem 2.5rem;
+    overflow-y: scroll;
+}
+.welcome_write_up .welcome_write_up_text {
+    text-align: center;
+}
+.new_features_section_content{
+    background-color: var(--yellow);
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.new_features_section_content i{
+    font-weight: 100;
+}
+.new_features_star i{
+    border: none;
+
+}
+
+/* new_features_entire_image section */
+.new_features_entire_image{
+    display: flex;
+    gap: 5rem;
+    margin-block: 10rem;
+}
+.new_features_entire_image .sec_whole{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+.new_features_entire_image img{
+    width: 100%;
+}
+
+/* about us section */
+.about_us_hero_section_text{
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+.about_us_hero_section_text p{
+    padding-inline: 5rem;
+}
+
+/* main (who are we section) */
+.who_are_we_section, .our_goals_section, .commitment_section{
+    display: flex;
+    gap: 3rem;
+    height: 50vh;
+    margin-top: 1rem;
+    margin-bottom: 6rem;
+}
+.who_are_we_section_text, .our_goals_section_text, .commitment_section_text{
+    text-align: justify;
+}
+.who_are_we_section h2, .our_goals_section h2, .commitment_section h2{
+    padding-bottom: 1rem;
+    text-align: center;
+}
+.who_are_we_section img{
+    padding-top: 3rem;
+    width: 80%;
+    border-radius: 20px;
+}
+.our_goals_section img{
+    padding-top: 3rem;
+    width: 80%;
+}
+.commitment_section img{
+    padding-top: 3rem;
+    width: 80%;
+}
+#svg_opposite {
+    text-align: end;
+}
