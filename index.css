@@ -102,8 +102,8 @@
 .individual_container img{
     position: absolute;
     width: 30%;
-    top: -4.5rem;
-    left: 45%;
+    top: -4.2rem;
+    left: 40%;
 }
 .individual_container h3{
     text-align: center;
@@ -114,9 +114,12 @@
 }
 
 /* become a family sectiom */
-.become_family_section{
+.become_family_form{
     height: 90vh;
-    margin-bottom: 2rem;
+    margin-bottom: 4rem;
+}
+.become_family_form{
+    width: 100%;
 }
 .become_family_section_text{
     width: 70%;
@@ -161,39 +164,170 @@
     display: flex;
     flex-direction: column;
     align-items: end;
+    justify-content: center;
     gap: 10rem;
-    padding: 5rem;
+    padding-bottom: 1rem 2rem 5rem 0;
 }
-
-/* .hero_welcome_section_text p{
-} */
+.welcome_write_up_list{
+    list-style-type: none;
+    text-align: center;
+}
+.hero_welcome_section_text h1{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.section_wrap_up{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 4rem;
+}
+.section_wrap_up button{
+    margin-inline: auto;
+}
 /* footer section */
 
-.footer_section{
-    background-color: var(--secondary);
-    color: white;
-    display: flex;
-    height: 60vh;
-}
-.individual_footer_containers{
-    /* width: 100%;
-    height: 50%; */
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-    justify-content: center;
-}
-.individual_footer_containers img{
-    width: 15%;
-}
-.individual_footer_containers li {
-    list-style: none;
-    color: white;
-}
-.individual_footer_containers a{
+.custom-search-botton {
+    position: absolute;
+    right: 0;
+    bottom: 13px;
+    border: 0;
+    outline: none;
+    background: #f18408;
+    color: #fff;
+    height: 2.2rem;
+    width: 6.6rem;
+    padding-right: 10px;
+    border-radius:8px;
+    margin-right: 0.4rem;
+  }
+  .custom-search-botton a {
     text-decoration: none;
     color: white;
-}
+  }
+  .shift {
+    margin-left: auto;
+    padding-right: 2.5rem;
+    font-size: 1.1rem;
+  }
+  
+  h6 a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1rem;
+    letter-spacing: 0.024px;
+  }
+  .text {
+    text-align: center;
+  }
+  .footer {
+    background-color: #264301;
+    overflow: visible;
+  }
+  
+  .footer-input {
+    display: flex !important;
+    background-color: #264301;
+    justify-content: flex-end;
+    width: 100%;
+    align-items: end;
+    padding-right: 10rem;
+  }
+  .footer-input input {
+    margin-block: auto;
+    height: 3.5rem;
+  }
+  .footer-input input::placeholder {
+    font-size: 0.9rem;
+  }
+  
+  .last {
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    color: #000;
+    margin: 0;
+  }
+  .rights {
+    display: flex;
+    gap: 3rem;
+  }
+  .rights img {
+    margin-left: 1rem;
+    width: 7px;
+    height: 7px;
+  }
+  .footer-bottom {
+    height: 20px;
+    width: 100%;
+  }
+  .custom-search-botton a {
+    text-decoration: none;
+    color: white;
+  }
+  .footer_input{
+    width: 50%;
+    position: relative;
+  }
+  .footer_input input{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+  }
+  .shift {
+    margin-left: auto;
+    padding-right: 2.5rem;
+    font-size: 1.1rem;
+  }
+  .logo-footer-div img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+  .logo-footer-div div i{
+    color: white;
+  }
+  .logo-footer-div div p{
+    color: white;
+  }
+  h6 a, h5{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 1rem;
+    letter-spacing: 0.024px;
+  }
+  .text {
+    text-align: center;
+  }
+  .footer {
+    background-color: #264301;
+    overflow: visible;
+  } 
+  .last {
+    background-color: white;
+    height: 20px;
+    width: 100%;
+    color: #000;
+    margin: 0;
+  }
+  .rights {
+    display: flex;
+    gap: 3rem;
+  }
+  .rights img {
+    margin-left: 1rem;
+    width: 7px;
+    height: 7px;
+  }
+  .footer-bottom {
+    height: 20px;
+    width: 100%;
+  }
 /* side bar section */
 .side_bar{
     height: 10rem;

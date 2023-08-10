@@ -11,7 +11,7 @@
 <body>
     <header class="nav-item d-flex flex-column justify-content-evenly">
         <nav class="navbar navbar-expand-lg navbar-light nav_logo">
-          <img src="./images/Logo-2.png" alt="TAB logo">
+          <img src="./images/tab_logo_B-O.png" alt="TAB logo">
             <div class="container-fluid display-fixed px-4 py-3">
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav to_center">
@@ -34,21 +34,21 @@
         </nav>
         <div class="container-fluid hero_welcome_section">
           <div class="hero_welcome_section_text">
-            <h2>Hello User</h2>
-            <h1>Welcome back to your personal oasis.</h1>
+            <h2 class="h2">Hello <span id="username">User</span></h2>
+            <h1>Welcome back to your <br>personal oasis.</h1>
         </div>
     </header>
     <main>
       <section class="container row p-5 my-5 gap-4 welcome_write_up">
-        <div class="container side_bar col-4">
-          <ul>
+        <div class="container side_bar col-5">
+          <ul class="welcome_write_up_list">
             <li>Notification Settings</li>
             <li>Schedule Break</li>
-            <li> Break Activities</li>
+            <li>Break Activities</li>
             <li>Reports</li>
           </ul>
         </div>
-        <div class="col-8 welcome_write_up_text">
+        <!-- <div class="col-7 welcome_write_up_text">
           <p>
             We're delighted to see you return to our virtual haven. Your presence brightens up our online community, and we're thrilled to have you back! <br>
             Here, at [Your Website Name], we've tailored this space to cater to your preferences and needs. Whether you're seeking inspiration, knowledge, or just a moment of serenity, we've got you covered. <br>
@@ -56,7 +56,7 @@
             We appreciate your continued support and look forward to accompanying you on your journey through this digital sanctuary. <br>
             Let's make the most of this experience together!
           </p>
-        </div>
+        </div> -->
       </section>
       <section class="new_features_section">
         <div class="new_features_section_content pt-3">
@@ -68,23 +68,29 @@
           </p>
         </div>
       </section>
-      <section>
-        <div class="container new_features_entire_image">
-          <div class="sec_whole">
-            <div class="new_features_image1">
-              <img src="./images/wlcm_hero_image.jpeg" alt="">
-            </div>
-            <div class="new_features_image2">
-              <img src="./images/wlcm_hero_image.jpeg" alt="">
-            </div>
+      <section class="container align-center p-5 how_tab_sec_work">
+        <h1 class="blockquote text-center fs-2">Personalized break recommendation</h1>
+        <div class="row gap-5">
+          <div class="container individual_container col-lg-4">
+            <img src="./images/3d-icons-1.png" alt="">
+            <h3>Create an Account</h3>
+            <p>the app tracks your activities to understand your work habits, and productive hours to give adequate suggestions that suits you.
           </div>
-          <div class="sec_whole">
-            <div class="new_features_image3">
-              <img src="./images/wlcm_hero_image.jpeg" alt="">
-            </div>
-            <div class="new_features_image4">
-              <img src="./images/wlcm_hero_image.jpeg" alt="">
-            </div>
+          <div class="container individual_container col-lg-6">
+            <img src="./images/heart_icon.png" alt="">
+            <h3>Personalized health recommendation</h3>
+            <p>Get health recommendation tips that will help to relieve or manage your health Conditons.
+              Also get personalised tips on how to prevent health issues associated with prolonged sitting.</p>
+          </div>
+          <div class="container individual_container col-lg-6 ">
+            <img src="./images/burnout_image.png" alt="">
+            <h3>Burnout prevention</h3>
+            <p>This features  monitors  your health condition by measuring body temperature, heart rate, and other vital signs. You will be notified of burnouts and recommend actions to be taken will be given.</p>
+          </div>
+          <div class="container individual_container col-lg-6">
+            <img src="./images/music_icon.png" alt="">
+            <h3>Recommended relaxation activities</h3>
+            <p>Relaxation activities that align with your prefrences and help you relax and recharge would be recommended.</p>
           </div>
         </div>
       </section>
@@ -96,7 +102,7 @@
             Rest assured, we respect your privacy, and you can opt-out anytime with a simple click.</p>
         </div>
         <div class="container become_family_form">          
-          <form action="post">
+          <form method="post">
             <input type="text" id="name" name="name" placeholder="name">
             <input type="email" id="mail" name="mail" placeholder= "Email Address">
             <input type="button" name="submit" id="input_submit" value="submit" >
@@ -104,6 +110,67 @@
         </div>
       </section>
     </main>
+    <footer class="mt-5 footer text-light pt-5">
+      <div>
+          <div class="top-footer">
+              <div class="d-md-flex justify-content-center gap-5">
+                  <div class="d-grid flex-column ps-5 logo-footer-div">
+                      <img class="w-25 ps-5" src="./images/tab_logo_B-O.png" alt="tab-logo">
+                      <div class="ps-2 d-flex flex-row align-items-center ">
+                          <i class="pe-3 fs-5 fa-solid fa-phone-volume"></i>
+                          <p>+234 123 456 7890</p>
+                      </div>
+                      <div class="container d-flex flex-row align-items-center">
+                          <i class="pe-3 fs-5 fa-brands fa-facebook"></i>
+                          <p>Timeout-And-Breathe</p>
+                      </div>
+                      <div class="container d-flex flex-row align-items-center ">
+                          <i class="iconic pe-3 fs-5 fa-brands fa-instagram"></i>
+                          <p>Timeout-And-Breathe</p>
+                      </div>
+                  </div>
+                  <div class="d-md-flex  flex-md-row justify-content-evenly">
+                      <div class="text p-5">
+                          <h5>Company</h5>
+                          <h6><a href="#">About Us</a></h6>
+                          <h6><a href="#">FAQ</a></h6>
+                          <h6><a href="#">Contact Us</a></h6>
+                      </div>
+                      <div class="text p-5">
+                          <h5>Product</h5>
+                          <h6><a href="#">How it works</a></h6>
+                          <h6><a href="#">Community</a></h6>
+                      </div>
+                      <div class=" text p-5">
+                          <h5>Legal</h5>
+                          <h6><a href="#">Terms and Conditions</a></h6>
+                          <h6><a href="#">Community Guideline</a></h6>
+                          <h6><a href="#">Community Guideline</a></h6>
+                          <h6><a href="#">Privacy Policy</a></h6>
+                      </div>
+                  </div>
+              </div>
+              <div class="d-flex flex-column justify-content-end me-5 footer-input">
+                  <h6 class="shift mb-2" style="color: white;">Subscribe to our news letter</h6>
+                  <div class="footer_input">
+                      <input type="text" class="custom-search-input" placeholder="Email Address">
+                      <button class="custom-search-botton" type="submit"><a href="#">submit</a></button>
+                  </div>
+              </div>
+          </div>
+          <div class="last mt-5 align-items-center">
+              <div class="d-flex flex-row justify-content-center align-items-center ">
+                  <div class="ps-3 align-items-center">
+                      <p class="rights"> <small>Timeout-And-Breathe</small><small>&copy; All rights reserved
+                              2023</small>
+                          <small>&#127760 English <img src="./images/Vector.svg" alt="vector-img"></small>
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <div class="footer footer-bottom"></div>
+      </div>
+  </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
